@@ -3,15 +3,14 @@ import React from "react";
 class ProfileAvatar extends React.Component {
   render() {
     return (
-      <div className="Profile__section-name">
+      <div className="container my-4">
         <img
-          className="Profile__avatar"
+          className="img-fluid w-25 mx-3 d-inline"
           src="https://eafitrequisitos.s3.us-east-2.amazonaws.com/john.png"
           alt="Avatar del usuario"
         />
-        <h1>
-          Juan <br />
-          Zuleta
+        <h1 className="d-inline align-middle">
+          Juan Zuleta
         </h1>
       </div>
     );

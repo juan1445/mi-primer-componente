@@ -1,7 +1,6 @@
 import React from 'react';
 import confLogo from '../images/logo-ag.png';
 
-import '../components/styles/ProfileStyle.css';
 
 
 class ProfileHeader extends React.Component{
@@ -10,8 +9,8 @@ class ProfileHeader extends React.Component{
 
         return(
 
-            <div className="Profile__header">
-                <img className="Profile__logo" src={confLogo} alt="Hola" /> 
+            <div className="container-fluid bg-gray py-2">
+                <img className="img-fluid" src={confLogo} alt="Hola" /> 
             </div>
 
         );

@@ -1,6 +1,5 @@
 import React from "react";
 
-import "./styles/ProfileStyle.css";
 import ProfileHeader from "../containers/ProfileHeader";
 import ProfileAvatar from "../containers/ProfileAvatar";
 import ProfileInfoUser from "../containers/ProfileInfoUser";
@@ -10,7 +9,7 @@ class Profile extends React.Component {
   render() {
     return (
       //Contenedor de mi card
-      <div className="Profile">
+      <div className="text-center shadow rounded border border-secondary">
         {/* Encabezado del perfil */}
         {<ProfileHeader />}
         {/* Nombre de usuario y su avatar */}
